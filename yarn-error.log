@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Ruby23-x64\bin;D:\xampp\php;D:\PortableSofeware\redis;D:\bin;C:\Program Files\Git\cmd;D:\xampp\mysql\bin;C:\Users\alvin\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Users\alvin\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_141\bin;C:\Users\alvin\AppData\Roaming\npm;C:\Users\alvin\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.2.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "yarn-projects",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "alvin",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:120971:13)
+      at emitNone (events.js:105:13)
+      at Interface.emit (events.js:207:7)
+      at Interface._ttyWrite (readline.js:769:16)
+      at ReadStream.onkeypress (readline.js:157:10)
+      at emitTwo (events.js:125:13)
+      at ReadStream.emit (events.js:213:7)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1006:36)
